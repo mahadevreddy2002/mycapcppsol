@@ -1,0 +1,30 @@
+//progammer_name : Mahadev Hatti
+//date : 8 AUG 2020
+//challenge :Tokens and opertaors !!!
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	//first progrm :: 1.
+
+	cout<<"Size of char: " <<sizeof(char) <<" byte"<<endl;
+	cout<<"Size of int: " <<sizeof(int) <<" bytes"<<endl;
+	cout<<"Size of float: " <<sizeof(float) <<" bytes"<<endl;
+	cout<<"Size of double: " <<sizeof(double) <<" bytes"<<endl;
+
+	cout<<endl<<endl<<endl;
+
+
+	//second progrm :: 2.
+	 float a,b;
+	 cout<<"Enter the two numbers :  ";
+	 cin>>a;
+	 cin>>b;
+	 cout<<"Product = "<<a*b;
+
+
+	return 0;
+}
+
