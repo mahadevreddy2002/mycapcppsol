@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int mar;
+    cout<<"Please Enter your total marks in the range  of o to  100"<<endl;
+    cin>>mar;
+    if(mar<50)
+    {
+        cout<<"Grade F"<<endl;
+    }
+    else if(mar>=50 && mar<60)
+    {
+        cout<<"Grade D"<<endl;
+    }
+    else if(mar>=60 && mar<70)
+    {
+       cout<<"Grade C"<<endl;
+    }
+    else if(mar>=70 && mar<80)
+    {
+        cout<<"Grade B"<<endl;
+    }
+    else if(mar>=80 && mar<90)
+    {
+       cout<<"Grade A"<<endl;
+    }
+    else if(mar>=90 && mar<=100)
+    {
+       cout<<"Grade A+"<<endl;
+    }
+    else
+    {
+       cout<<"Enter the marks in numbered format and  in the range of 0 to 100"<<endl;
+    }
+
+    return 0;
+}
